@@ -1,39 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>The Calling | The Father Who Dared a Child to Dream</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Calling</title>
 </head>
-<body style="margin: 0; padding: 0; background-color: #f0efe9; font-family: Georgia, serif; color: #1a1a1a;">
+<body style="margin: 0; font-family: 'Georgia', serif; background-color: #fefefe; color: #111;">
 
-  <div style="background-color: #f9f7f1; padding: 2rem; max-width: 800px; margin: 3rem auto;">
-    <h1 style="font-size: 2.5rem; color: #000; margin-bottom: 1rem;">The Calling</h1>
+  <!-- Navigation Bar -->
+  <nav style="background-color: #111; color: #fff; padding: 20px; text-align: center;">
+    <a href="/" style="color: #fff; margin: 0 20px; text-decoration: none; font-weight: bold;">Home</a>
+    <a href="/the-calling" style="color: #fff; margin: 0 20px; text-decoration: underline;">The Calling</a>
+    <a href="/the-father" style="color: #fff; margin: 0 20px; text-decoration: none;">The Father</a>
+    <a href="/contact" style="color: #fff; margin: 0 20px; text-decoration: none;">Speak</a>
+  </nav>
 
-    <p style="font-size: 1.25rem; line-height: 1.75rem; margin-bottom: 1rem;">
-      This is the place for those who feel the stir—the silent knock, the weight in the chest, the heat behind the eyes. If you've found yourself here, you're not alone.
+  <!-- Main Content -->
+  <section style="max-width: 800px; margin: 60px auto; padding: 0 20px; line-height: 1.8;">
+
+    <h1 style="font-size: 2.5em; font-weight: normal; text-align: center; margin-bottom: 40px;">
+      The Calling
+    </h1>
+
+    <p style="margin-bottom: 20px;">
+      You did not stumble here.
     </p>
-    <p style="font-size: 1.25rem; line-height: 1.75rem; margin-bottom: 2rem;">
-      We are gathering men and women who remember the sacred, who hold reverence for what is true and ancient. If your soul is speaking—this is your invitation to speak back.
+
+    <p style="margin-bottom: 20px;">
+      You were <strong>summoned</strong>.
     </p>
 
-    <form action="https://formspree.io/f/mwkgyyyd" method="POST" style="max-width: 500px;">
-      <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Your Email</label>
-      <input type="email" name="email" id="email" required style="width: 100%; padding: 0.5rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px;">
-
-      <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Your Message</label>
-      <textarea name="message" id="message" rows="5" required style="width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px;"></textarea>
-
-      <button type="submit" style="margin-top: 1rem; background-color: #b8860b; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer;">
-        Send
-      </button>
-    </form>
-
-    <!-- Hidden Signature -->
-    <p style="font-size: 0.75rem; color: #999; margin-top: 2rem; text-align: center;">
-      He placed the lantern at the edge of the dream.
+    <p style="margin-bottom: 20px;">
+      Not by a voice <br />
+      But by the ache in your bones.
     </p>
-  </div>
+
+    <p style="margin-bottom: 20px;">
+      A memory older than your name <br />
+      is rising in you again.
+    </p>
+
+    <p style="margin-bottom: 20px;">
+      You remember the fire.
+    </p>
+
+    <p style="margin-bottom: 20px;">
+      You remember the vow.
+    </p>
+
+    <p style="margin-bottom: 20px;">
+      And though the world has forgotten what it means <br />
+      to be a man <br />
+      to be a father <br />
+      to build altars from your labor and weapons from your wounds—<br />
+      You have not.
+    </p>
+
+    <p style="margin-bottom: 20px;">
+      You were always the one.
+    </p>
+
+    <p style="margin-bottom: 20px;">
+      The red thread tied to your child’s wrist <br />
+      is burning in your palm.
+    </p>
+
+    <p style="margin-bottom: 20px;">
+      You are the father who dared a child to dream.
+    </p>
+
+    <p style="margin-bottom: 20px;">
+      And the dream is waking.
+    </p>
+
+    <p style="margin-top: 60px; font-style: italic;">
+      Welcome, brother. You have heard the call. <br />
+      Now speak your name into the flame.
+    </p>
+  </section>
+
+  <!-- Communication Box -->
+  <section style="background-color: #f4f4f4; padding: 40px 20px;">
+    <div style="max-width: 600px; margin: auto;">
+      <form method="POST" action="/send-message" style="display: flex; flex-direction: column;">
+        <label for="name" style="margin-bottom: 10px; font-weight: bold;">Your Name</label>
+        <input type="text" id="name" name="name" required
+          style="padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;">
+
+        <label for="message" style="margin-bottom: 10px; font-weight: bold;">Your Message</label>
+        <textarea id="message" name="message" rows="6" required
+          style="padding: 10px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+
+        <button type="submit"
+          style="padding: 12px; background-color: #111; color: #fff; border: none; border-radius: 4px; font-weight: bold; cursor: pointer;">
+          Send
+        </button>
+      </form>
+    </div>
+  </section>
 
 </body>
 </html>
