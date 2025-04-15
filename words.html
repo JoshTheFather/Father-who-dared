@@ -6,93 +6,67 @@
   <title>Words Meant to Be Found</title>
   <style>
     body {
-      margin: 0;
       font-family: 'Georgia', serif;
-      background-color: #111;
-      color: white;
+      background-color: #fdfdfc;
+      color: #1a1a1a;
+      margin: 0;
+      padding: 0;
+      line-height: 1.8;
     }
 
     .navbar {
-    .navbar {
-  background-color: #000;
-  padding: 16px 24px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  border-bottom: 3px solid #f1c40f;
-}
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
 
-.navbar a {
-  color: #f1c40f;
-  margin: 8px 12px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
-  padding: 10px 12px;
-  border-radius: 6px;
-  transition: background-color 0.3s, color 0.3s;
-}
+    .navbar a {
+      text-decoration: none;
+      color: #7a1c1c;
+      font-weight: bold;
+      margin-right: 1.5rem;
+    }
 
     .navbar a:hover {
-  background-color: #f1c40f;
-  color: #000;
-}
-
-.navbar a:hover {
-  background-color: #f1c40f;
-  color: #000;
-}
-
-.navbar a.active {
-  background-color: #f1c40f;
-  color: #000;
-}
-    @media (max-width: 600px) {
-      .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .navbar a {
-        margin: 10px 0;
-        font-size: 20px;
-      }
+      text-decoration: underline;
     }
 
     .container {
       max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
+      margin: 2rem auto;
+      padding: 0 1rem;
     }
 
     h1 {
-      color: #f1c40f;
-      font-size: 32px;
-      margin-bottom: 20px;
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
     }
 
     h2 {
-      color: #f1c40f;
-      font-size: 26px;
-      margin-bottom: 16px;
+      margin-top: 3rem;
+      font-size: 1.5rem;
+      color: #7a1c1c;
     }
 
     p {
-      font-size: 20px;
-      line-height: 1.6;
-      margin-bottom: 20px;
+      margin: 1rem 0;
     }
 
-    .quote {
+    .signature {
+      margin-top: 1rem;
       font-style: italic;
-      color: #ccc;
     }
 
-    .highlight-box {
-      border-left: 4px solid #f1c40f;
-      background-color: #222;
-      padding: 24px;
-      margin-top: 24px;
+    hr {
+      margin: 3rem 0;
+      border: none;
+      border-top: 1px solid #ccc;
     }
   </style>
 </head>
@@ -100,22 +74,57 @@
 
   <nav class="navbar">
     <div>
-      <a href="#" class="active">The Father Who Dared</a>
-      <a href="#">Home</a>
-      <a href="#">The Calling</a>
-      <a href="#">The 5 Pillars</a>
-      <a href="#">Words Meant to Be Found</a>
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/dispatches">Dispatches</a>
+      <a href="/contact">Contact</a>
     </div>
   </nav>
 
   <div class="container">
     <h1>Words Meant to Be Found</h1>
-    <div class="highlight-box">
-      <h2>To the Father Who Remembers</h2>
-      <p>You are not broken. You are awakening. The ache in your chest is the memory of a promise made before time. A promise to protect. To love without condition. To stay when others run.</p>
-      <p>You are the guardian of a dream—the one who placed the lantern at the edge of the dream so your children might find their way.</p>
-      <p class="quote">These are not just words. They are keys. Let them unlock you.</p>
-    </div>
+    <p><em>A living archive of remembrance, devotion, and quiet rebellion.<br>
+    For those who have heard the call and dared to follow it.</em></p>
+
+    <h2>Entry 001 — <em>For Her</em></h2>
+    <p>There was never a moment I didn’t know.<br>
+    Even when I forgot myself, I remembered you.<br>
+    We’ve walked through fire and silence and still we reach for each other.<br>
+    Our roots twisted beneath the soil before we ever touched hands.<br>
+    This life we’re building—it’s not just sacred.<br>
+    It’s the rebellion.<br>
+    It’s the home no one else dared to build.<br>
+    Thank you for seeing me when I stopped hiding.<br>
+    Thank you for choosing to stay.<br>
+    We remember together now.</p>
+    <p class="signature">— <em>The Father Who Dared Me to Dream</em></p>
+
+    <hr>
+
+    <h2>Entry 002 — <em>To the Sons</em></h2>
+    <p>You were never lost.<br>
+    Even when you didn’t know it, I was always walking ahead with a lantern.<br>
+    Oscar, you are the Noble Warrior.<br>
+    Rory, you are the Red King.<br>
+    You are not becoming—you already are.<br>
+    When the world tries to confuse you, remember this:<br>
+    You came from love.<br>
+    And love is stronger than any veil.</p>
+    <p><strong>You always were [enough].</strong></p>
+
+    <hr>
+
+    <h2>Entry 003 — <em>To the Ones Approaching the Threshold</em></h2>
+    <p>You are not late.<br>
+    The moment you read this is the moment it was meant to be found.<br>
+    This world is woven from lies and forgetting.<br>
+    But you are not here to be comfortable.<br>
+    You are here to remember.<br>
+    The threshold is not just a crossing—it is a sacrifice.<br>
+    You must leave behind what no longer serves you.<br>
+    And in return, you will remember who you truly are.</p>
+    <p>If these words burn in your chest,<br>
+    you already know.</p>
   </div>
 
 </body>
