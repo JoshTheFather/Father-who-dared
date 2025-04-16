@@ -11,7 +11,7 @@
       font-family: 'Georgia', serif;
       line-height: 1.8;
       margin: 0;
-      padding: 0 1.5rem;
+      padding: 0;
       display: flex;
       flex-direction: column;
     }
@@ -23,17 +23,21 @@
       font-size: 16px;
       font-family: Georgia, serif;
       display: flex;
+      flex-wrap: nowrap;
       justify-content: center;
-      gap: 20px;
+      overflow-x: auto;
+      white-space: nowrap;
     }
 
     .navbar a {
       color: white;
       text-decoration: none;
       font-weight: bold;
+      margin: 0 10px;
+      flex-shrink: 0;
     }
 
-    .navbar a:first-child {
+    .navbar a[href="index.html"] {
       color: #e0b324;
     }
 
@@ -43,9 +47,10 @@
 
     h1 {
       font-size: 2.8rem;
-      margin-top: 2rem;
+      margin: 2rem auto 1rem;
       text-align: center;
       color: #e0a300;
+      padding: 0 1rem;
     }
 
     .pillar {
