@@ -14,24 +14,30 @@
       padding: 0 1.5rem;
       display: flex;
       flex-direction: column;
-      align-items: center;
     }
 
-    nav {
-      margin-top: 1.5rem;
-      width: 100%;
-      text-align: center;
+    .navbar {
+      background-color: black;
+      padding: 16px 8px;
+      border-bottom: 3px solid #e0b324;
+      font-size: 16px;
+      font-family: Georgia, serif;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
     }
 
-    nav a {
-      color: #e0a300;
+    .navbar a {
+      color: white;
       text-decoration: none;
       font-weight: bold;
-      font-size: 1.1rem;
-      margin: 0 1rem;
     }
 
-    nav a:hover {
+    .navbar a:first-child {
+      color: #e0b324;
+    }
+
+    .navbar a:hover {
       text-decoration: underline;
     }
 
@@ -64,18 +70,19 @@
       color: #aaa;
       border-top: 1px solid #444;
       max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
     }
   </style>
 </head>
 <body>
 
-   <!-- Final Sacred NavBar -->
-<div style="background-color: black; padding: 16px 8px; border-bottom: 3px solid #e0b324; text-align: center; font-size: 16px; font-family: Georgia, serif;">
-  <a href="index.html" style="color: #e0b324; text-decoration: none; margin: 0 10px; font-weight: bold;">Home</a>
-  <a href="calling.html" style="color: white; text-decoration: none; margin: 0 10px;">The Calling</a>
-  <a href="pillars.html" style="color: white; text-decoration: none; margin: 0 10px;">5 Pillars</a>
-  <a href="words.html" style="color: white; text-decoration: none; margin: 0 10px;">Words</a>
-</div>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="calling.html">The Calling</a>
+    <a href="pillars.html">5 Pillars</a>
+    <a href="words.html">Words</a>
+  </div>
 
   <h1>The Five Pillars of the Sacred Father</h1>
 
